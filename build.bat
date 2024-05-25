@@ -1,7 +1,7 @@
 @echo off
 
 rem Complie
-gcc -I src/include -L src/lib -o main src/main.c -lmingw32 -lSDL2main -lSDL2
+gcc -I src/include -L src/lib -o src/bin/main src/main.c -lmingw32 -lSDL2main -lSDL2
 
 rem Complie
-main.exe
+"src/bin/main.exe"
